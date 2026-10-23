@@ -1,0 +1,27 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+*.pyc
+__pycache__/
+
+# macOS specific
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Dataset (large files - 8GB+)
+dataset/
+*.zip
+*.tar.gz
+
+# Checkpoints / Large weights (optional: best_model is 16MB and can be tracked, but ignore intermediate or final models)
+outputs/final_model.keras
+
+# IDE / Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
